@@ -1,0 +1,47 @@
+﻿  Source.cpp
+C:\Users\55000\source\repos\compVision1\Source.cpp(10,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\55000\source\repos\compVision1\Source.cpp(31,58): warning C4244: аргумент: преобразование "float" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\55000\source\repos\compVision1\Source.cpp(31,35): warning C4244: аргумент: преобразование "float" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\55000\source\repos\compVision1\Source.cpp(100,46): warning C4244: =: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=uchar
+          ]
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z) в функции "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z) в функции "public: __thiscall cv::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0String@cv@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ) в функции "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl cv::error(int,class cv::String const &,char const *,char const *,int)" (?error@cv@@YAXHABVString@1@PBD1H@Z) в функции "public: float & __thiscall cv::Mat::at<float>(int,int)" (??$at@M@Mat@cv@@QAEAAMHH@Z).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "class cv::debug_build_guard::_InputOutputArray const & __cdecl cv::noArray(void)" (?noArray@cv@@YAABV_InputOutputArray@debug_build_guard@1@XZ) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall cv::Mat::Mat(class cv::Mat const &,class cv::Rect_<int> const &)" (??0Mat@cv@@QAE@ABV01@ABV?$Rect_@H@1@@Z) в функции "public: class cv::Mat __thiscall cv::Mat::operator()(class cv::Rect_<int> const &)const " (??RMat@cv@@QBE?AV01@ABV?$Rect_@H@1@@Z).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall cv::Mat::copyTo(class cv::debug_build_guard::_OutputArray const &)const " (?copyTo@Mat@cv@@QBEXABV_OutputArray@debug_build_guard@2@@Z) в функции "public: class cv::Mat __thiscall cv::Mat::clone(void)const " (?clone@Mat@cv@@QBE?AV12@XZ).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: static class cv::MatExpr __cdecl cv::Mat::zeros(class cv::Size_<int>,int)" (?zeros@Mat@cv@@SA?AVMatExpr@2@V?$Size_@H@2@H@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ) в функции "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl cv::addWeighted(class cv::debug_build_guard::_InputArray const &,double,class cv::debug_build_guard::_InputArray const &,double,double,class cv::debug_build_guard::_OutputArray const &,int)" (?addWeighted@cv@@YAXABV_InputArray@debug_build_guard@1@N0NNABV_OutputArray@31@H@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl cv::normalize(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputOutputArray const &,double,double,int,int,class cv::debug_build_guard::_InputArray const &)" (?normalize@cv@@YAXABV_InputArray@debug_build_guard@1@ABV_InputOutputArray@31@NNHH0@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "class cv::Mat __cdecl cv::imread(class cv::String const &,int)" (?imread@cv@@YA?AVMat@1@ABVString@1@H@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl cv::imshow(class cv::String const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXABVString@1@ABV_InputArray@debug_build_guard@1@@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "class cv::Mat __cdecl cv::getStructuringElement(int,class cv::Size_<int>,class cv::Point_<int>)" (?getStructuringElement@cv@@YA?AVMat@1@HV?$Size_@H@1@V?$Point_@H@1@@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl cv::GaussianBlur(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::Size_<int>,double,double,int)" (?GaussianBlur@cv@@YAXABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@V?$Size_@H@1@NNH@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl cv::bilateralFilter(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,int,double,double,int)" (?bilateralFilter@cv@@YAXABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@HNNH@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl cv::Canny(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,double,double,int,bool)" (?Canny@cv@@YAXABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@NNH_N@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl cv::dilate(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::Point_<int>,int,int,class cv::Scalar_<double> const &)" (?dilate@cv@@YAXABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@0V?$Point_@H@1@HHABV?$Scalar_@N@1@@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl cv::findContours(class cv::debug_build_guard::_InputOutputArray const &,class cv::debug_build_guard::_OutputArray const &,int,int,class cv::Point_<int>)" (?findContours@cv@@YAXABV_InputOutputArray@debug_build_guard@1@ABV_OutputArray@31@HHV?$Point_@H@1@@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "double __cdecl cv::arcLength(class cv::debug_build_guard::_InputArray const &,bool)" (?arcLength@cv@@YANABV_InputArray@debug_build_guard@1@_N@Z) в функции "public: __thiscall <lambda_9a9b250d3574ce1476603c2a4288ad9d>::operator()(class std::vector<class cv::Point_<int>,class std::allocator<class cv::Point_<int> > > const &)const " (??R<lambda_9a9b250d3574ce1476603c2a4288ad9d>@@QBE@ABV?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@@Z).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl cv::rectangle(class cv::debug_build_guard::_InputOutputArray const &,class cv::Point_<int>,class cv::Point_<int>,class cv::Scalar_<double> const &,int,int,int)" (?rectangle@cv@@YAXABV_InputOutputArray@debug_build_guard@1@V?$Point_@H@1@1ABV?$Scalar_@N@1@HHH@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl cv::drawContours(class cv::debug_build_guard::_InputOutputArray const &,class cv::debug_build_guard::_InputArray const &,int,class cv::Scalar_<double> const &,int,int,class cv::debug_build_guard::_InputArray const &,int,class cv::Point_<int>)" (?drawContours@cv@@YAXABV_InputOutputArray@debug_build_guard@1@ABV_InputArray@31@HABV?$Scalar_@N@1@HH1HV?$Point_@H@1@@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall cv::CascadeClassifier::CascadeClassifier(void)" (??0CascadeClassifier@cv@@QAE@XZ) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall cv::CascadeClassifier::~CascadeClassifier(void)" (??1CascadeClassifier@cv@@QAE@XZ) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: bool __thiscall cv::CascadeClassifier::load(class cv::String const &)" (?load@CascadeClassifier@cv@@QAE_NABVString@2@@Z) в функции _main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall cv::CascadeClassifier::detectMultiScale(class cv::debug_build_guard::_InputArray const &,class std::vector<class cv::Rect_<int>,class std::allocator<class cv::Rect_<int> > > &,double,int,int,class cv::Size_<int>,class cv::Size_<int>)" (?detectMultiScale@CascadeClassifier@cv@@QAEXABV_InputArray@debug_build_guard@2@AAV?$vector@V?$Rect_@H@cv@@V?$allocator@V?$Rect_@H@cv@@@std@@@std@@NHHV?$Size_@H@2@2@Z) в функции _main.
+D:\opencv\build\x64\vc15\lib\opencv_world343.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+D:\opencv\build\x64\vc15\lib\opencv_world343d.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+C:\Users\55000\source\repos\compVision1\Debug\compVision1.exe : fatal error LNK1120: неразрешенных внешних элементов: 27

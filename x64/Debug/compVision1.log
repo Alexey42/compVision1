@@ -1,0 +1,18 @@
+﻿  Source.cpp
+C:\Users\55000\source\repos\compVision1\Source.cpp(10,58): warning C4244: аргумент: преобразование "float" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\55000\source\repos\compVision1\Source.cpp(10,35): warning C4244: аргумент: преобразование "float" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\55000\source\repos\compVision1\Source.cpp(17,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\55000\source\repos\compVision1\Source.cpp(98,46): warning C4244: =: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=uchar
+          ]
+  compVision1.vcxproj -> C:\Users\55000\source\repos\compVision1\x64\Debug\compVision1.exe
